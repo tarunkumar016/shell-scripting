@@ -2,3 +2,4 @@ we use shebang notification at starting of script which tells sysstem kind of in
 
 shebang notification = #!/bin/bash
 to comment a line we use # 
+echo Hello Tarun
