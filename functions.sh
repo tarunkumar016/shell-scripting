@@ -7,3 +7,10 @@ echo " Total number of sessions opened today : $(who | wc -l)
 }
 
 stat
+
+echo " Next i will call sample function"
+sample() {
+echo " I am tarunkumar "
+echo "$(uptime | awk -F : '{print $1})"
+}
+sample
