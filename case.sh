@@ -1,9 +1,12 @@
-tarun=$1
-case $tarun in
-start) 
-echo "Starting payment service"
+Action=$1
+case $Action in 
+start)) 
+echo " Payment service is being started"
 ;;
-Stop)
-echo "Stopping payment service"
+stop))
+echo "Payment service being stopped"
+;;
+restart))
+echo  "payment services are restarted"
 ;;
 esac
