@@ -1,8 +1,8 @@
 #!/bin/bash 
-a = 10
+$A = 10
 
-echo "a value is $a"
-echo 'a value is $a'
+echo "a value is $A"
+echo 'a value is $A'
 $?
 '$?'
 echo "$?"
