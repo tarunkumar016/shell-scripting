@@ -1,5 +1,5 @@
-#?bin/bash 
-a = 10
+#!/bin/bash 
+a =  10
 
 echo "a value is $a"
 echo 'a value is $a'
