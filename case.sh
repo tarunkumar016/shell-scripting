@@ -9,4 +9,7 @@ echo "Payment service being stopped"
 restart)
 echo "payment services are restarted"
 ;;
+*)
+echo "Need to use Start , stop or restart"
+;;
 esac
