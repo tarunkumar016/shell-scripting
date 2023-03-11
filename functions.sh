@@ -1,3 +1,3 @@
 sample() { 
-    echo "i am learning functions "
+    echo "i am learning functions"
 }
