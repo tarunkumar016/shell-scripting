@@ -1,12 +1,12 @@
 Action=$1
 case $Action in 
-start)) 
+start)
 echo "Payment service is being started"
 ;;
-stop))
+stop)
 echo "Payment service being stopped"
 ;;
-restart))
+restart)
 echo "payment services are restarted"
 ;;
 esac
