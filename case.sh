@@ -1,3 +1,4 @@
+tarun=$1
 case $tarun in
 start) 
 echo "Starting payment service"
