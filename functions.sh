@@ -11,6 +11,6 @@ stat
 echo " Next i will call sample function"
 sample() {
 echo " I am tarunkumar "
-echo "$(uptime | awk -F : '{print $1})"
+echo "$(uptime | awk -F : '{print $1}')"
 }
 sample
