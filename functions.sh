@@ -4,4 +4,5 @@ sample() {
 stat() {
 echo "Today date is : $(date +%D)"
 }
-calling stat function
+echo "calling stat function"
+stat
